@@ -14,9 +14,10 @@ h1 {
     padding-top: 50px; padding-left: 2em;
 }
 nav {
+    float: left;
     padding: 1em;
     text-align: center;
-    font-weight: 400;
+    font-weight: 400; 
 }
 nav a{
     text-decoration: none;
