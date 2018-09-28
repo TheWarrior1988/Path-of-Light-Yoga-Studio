@@ -5,22 +5,30 @@ body {
 }
 header {
     background-color: #9BC1C2;
-    background-image: url(lilyheader.jpg);
+    background-image: url(lilyheader.jpg); padding-left: 1em; padding-right: 1em;
     background-position: right;
     background-repeat: no-repeat;
-    height:150px;
+    height:150px
 }
 h1 {
     padding-top: 50px; padding-left: 2em;
 }
 nav {
     float: left;
+    width: 160px;
     padding: 1em;
-    text-align: center;
-    font-weight: 400; 
+    font-weight: 400;
 }
 nav a{
     text-decoration: none;
+    display: block;
+    font-style: bold;
+    text-align: center;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #CCCCCC;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 main { padding-left: 2em; padding-right: 2em;
        }
@@ -38,8 +46,9 @@ footer{
            margin-right: auto;
            margin-left: auto;
            background-color: #F5F5F5;
-           min-width: 1000px; 
-           max-width: 1280px; }
+           min-width: 1200px; 
+           max-width: 1480px; }
 img { padding-left: 1em;
       padding-right: 1em; }
 #hero { text-align: center; }
+* {box-sizing: border-box; }
