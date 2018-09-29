@@ -2,35 +2,47 @@ body {
     background-color: #3F2860;
     color: #3F2860;
     font-family: sans-serif;
+    
 }
 header {
     background-color: #9BC1C2;
-    background-image: url(lilyheader.jpg); padding-left: 1em; padding-right: 1em;
+    background-image: url(lilyheader.jpg); 
     background-position: right;
     background-repeat: no-repeat;
-    height:150px
+    height:150px;
+    display: block;
 }
 h1 {
     padding-top: 50px; padding-left: 2em;
+    display: block;
 }
-nav {
+nav { 
+    font-weight: bold;
     float: left;
-    width: 160px;
+    width: 200px;
     padding: 1em;
-    font-weight: 400;
+    display: block;
 }
+nav ul { list-style-type: none; 
+        }
 nav a{
     text-decoration: none;
     display: block;
-    font-style: bold;
     text-align: center;
-    border-style: outset;
-    border-width: 3px;
-    border-color: #CCCCCC;
+    border: 3px outset #CCCCCC;
     padding: 1em;
-    margin-bottom: 1em;
+    margin-bottom: .10em;
 }
+
+a:link {color: #3F2860;}
+
+a:visited {color: #497777;}
+
+a:hover {color: #A26100; border: 3px inset #333333; }
+
 main { padding-left: 2em; padding-right: 2em;
+    margin-left: 170px; padding-top: 1em;
+    display: block;
        }
 .studio {
     font-style: italic;
@@ -41,14 +53,17 @@ footer{
     font-size: x-small;
     font-style: italic;
     text-align: center;
+    display: block;
 }
+
+.floatleft {float: left;
+            margin-right: 4em; }
+
 #wrapper { width: 80%;
            margin-right: auto;
            margin-left: auto;
            background-color: #F5F5F5;
            min-width: 1200px; 
            max-width: 1480px; }
-img { padding-left: 1em;
-      padding-right: 1em; }
-#hero { text-align: center; }
+.clear { clear: both; }
 * {box-sizing: border-box; }
